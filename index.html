@@ -1,0 +1,768 @@
+<head>
+    <style>
+        /* faz um reset básico:*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /*Define os estilos de cada célula:*/
+        td {
+            width: 70px;
+            height: 70px;
+            min-width: 70px;
+            min-height: 70px;
+            border: 2px solid transparet;
+            padding: 5px;
+
+            position: relative;
+        }
+
+        /*cores dos elementos:*/
+       
+
+        .nonmetal {
+            background-color: #9f61d5;
+        }
+
+        .alkali-metal {
+            background-color: #d23906;
+        }
+
+        .alkaline-earth-metal {
+            background-color: #f9af04;
+        }
+         .noble-gas {
+            background-color: #11a636;
+        }
+
+        .metalloid {
+            background-color: #eae165;
+        }
+
+        .halogen {
+            background-color: #631566;
+        }
+         .Actinidia {
+            background-color: #c63b87;
+        }
+         .lanthanides {
+            background-color: #23be8d;
+        }
+         .representative-metals {
+            background-color: #09bff1;
+        }
+         .semi-metals {
+            background-color: #06f7fb;
+        }
+
+
+        /* número atômico:*/
+        .atomic-num {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+
+            font-size: 10px;
+        }
+
+        /*Símbolo do elemento:*/
+        .symbol {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        /*Nome do elemento*/
+        .name {
+            display: block;
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <table width="600" height="100" align="center">
+        <tr>
+            <td class="nonmetal">
+                <span class='atomic-num'>1</span>
+                <h3 class='symbol'>H</h3>
+                <span class='name'>Hidrogênio</span>
+            </td>
+            <td colspan="16"></td>
+
+            <td class="noble-gas">
+                <span class='atomic-num'>2</span>
+                <h3 class='symbol'>H</h3>
+                <span class='name'>Hélio</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="alkali-metal">
+                <span class='atomic-num'>3</span>
+                <h3 class='symbol'>Li</h3>
+                <span class='name'>Lítio</span>
+            </td>
+            <td class="alkaline-earth-metal">
+                <span class='atomic-num'>4</span>
+                <h3 class='symbol'>Be</h3>
+                <span class='name'>Berílio</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="semi-metals">
+                <span class='atomic-num'>5</span>
+                <h3 class='symbol'>B</h3>
+                <span class='name'>Boro</span>
+            </td>
+            <td class="nonmetal">
+                <span class='atomic-num'>6</span>
+                <h3 class='symbol'>C</h3>
+                <span class='name'>Carbono</span>
+            </td>
+            <td class="nonmetal">
+                <span class='atomic-num'>7</span>
+                <h3 class='symbol'>N</h3>
+                <span class='name'>Nitrogênio</span>
+            </td>
+            <td class="nonmetal">
+                <span class='atomic-num'>8</span>
+                <h3 class='symbol'>O</h3>
+                <span class='name'>Oxigênio</span>
+            </td>
+            <td class="halogen">
+                <span class='atomic-num'>9</span>
+                <h3 class='symbol'>F</h3>
+                <span class='name'>Flúor</span>
+            </td>
+            <td class="noble-gas">
+                <span class='atomic-num'>10</span>
+                <h3 class='symbol'>Ne</h3>
+                <span class='name'>Neônio</span>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+       
+        </tr>
+        
+        <tr>
+            <td class="alkali-metal">
+                <span class='atomic-num'>11</span>
+                <h3 class='symbol'>NA</h3>
+                <span class='name'>Sódio</span>
+            </td>
+            <td class="alkaline-earth-metal">
+                <span class='atomic-num'>12</span>
+                <h3 class='symbol'>MG</h3>
+                <span class='name'>Magnésio</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="representative-metals">
+                <span class='atomic-num'>13</span>
+                <h3 class='symbol'>AI</h3>
+                <span class='name'>Aluminio</span>
+            </td>
+            <td class="semi-metals">
+                <span class='atomic-num'>14</span>
+                <h3 class='symbol'>Si</h3>
+                <span class='name'>Silicio</span>
+            </td>
+            <td class="nonmetal">
+                <span class='atomic-num'>15</span>
+                <h3 class='symbol'>P</h3>
+                <span class='name'>Fosforo</span>
+            </td>
+            <td class="nonmetal">
+                <span class='atomic-num'>16</span>
+                <h3 class='symbol'>S</h3>
+                <span class='name'>Enxofre</span>
+            </td>
+            <td class="halogen">
+                <span class='atomic-num'>17</span>
+                <h3 class='symbol'>CI</h3>
+                <span class='name'>Cloro</span>
+            </td>
+            <td class="noble-gas">
+                <span class='atomic-num'>18</span>
+                <h3 class='symbol'>Ar</h3>
+                <span class='name'>Argônio</span>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <td class="alkali-metal">
+            <span class='atomic-num'>19</span>
+            <h3 class='symbol'>k</h3>
+            <span class='name'>Potássio</span>
+        </td>
+        <td class="alkaline-earth-metal">
+            <span class='atomic-num'>20</span>
+            <h3 class='symbol'>Ca</h3>
+            <span class='name'>Cálcio</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>21</span>
+            <h3 class='symbol'>SC</h3>
+            <span class='name'>Escâdio</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>22</span>
+            <h3 class='symbol'>Ti</h3>
+            <span class='name'>Titânio</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>23</span>
+            <h3 class='symbol'>V</h3>
+            <span class='name'>Vanádio</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>24</span>
+            <h3 class='symbol'>Cr</h3>
+            <span class='name'>Crómio</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>25</span>
+            <h3 class='symbol'>Mn</h3>
+            <span class='name'>Manganês</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>26</span>
+            <h3 class='symbol'>Fe</h3>
+            <span class='name'>Ferro</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>27</span>
+            <h3 class='symbol'>Co</h3>
+            <span class='name'>Cobalto</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>28</span>
+            <h3 class='symbol'>Ni</h3>
+            <span class='name'>Niquel</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>29</span>
+            <h3 class='symbol'>Cu</h3>
+            <span class='name'>Cobre</span>
+        </td>
+        <td class="metalloid">
+            <span class='atomic-num'>30</span>
+            <h3 class='symbol'>Zn</h3>
+            <span class='name'>Zinco</span>
+        </td>
+        <td class="representative-metals">
+            <span class='atomic-num'>31</span>
+            <h3 class='symbol'>Ga</h3>
+            <span class='name'>Galío</span>
+        </td>
+        <td class="semi-metals">
+            <span class='atomic-num'>32</span>
+            <h3 class='symbol'>Ge</h3>
+            <span class='name'>Germânio</span>
+        </td>
+        <td class="semi-metals">
+            <span class='atomic-num'>33</span>
+            <h3 class='symbol'>As</h3>
+            <span class='name'>Arsênio</span>
+        </td>
+        <td class="nonmetal">
+            <span class='atomic-num'>34</span>
+            <h3 class='symbol'>34</h3>
+            <span class='name'>Selénio</span>
+        </td>
+        <td class="halogen">
+            <span class='atomic-num'>35</span>
+            <h3 class='symbol'>Br</h3>
+            <span class='name'>Bromo</span>
+        </td>
+        <td class="noble-gas">
+            <span class='atomic-num'>36</span>
+            <h3 class='symbol'>Kr</h3>
+            <span class='name'>Criptônio</span>
+        </td>
+</tr>
+<tr></tr>
+<tr></tr>
+<td class="alkali-metal">
+    <span class='atomic-num'>37</span>
+    <h3 class='symbol'>Rb</h3>
+    <span class='name'>Rubidio</span>
+</td>
+<td class="alkaline-earth-metal">
+    <span class='atomic-num'>38</span>
+    <h3 class='symbol'>Sr</h3>
+    <span class='name'>Strôncio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>39</span>
+    <h3 class='symbol'>Y</h3>
+    <span class='name'>Itrio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>40</span>
+    <h3 class='symbol'>Zr</h3>
+    <span class='name'>Zircônio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>41</span>
+    <h3 class='symbol'>Nb</h3>
+    <span class='name'>Nóbio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>42</span>
+    <h3 class='symbol'>Mo</h3>
+    <span class='name'>Molbdênio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>43</span>
+    <h3 class='symbol'>Tc</h3>
+    <span class='name'>Tecnécio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>44</span>
+    <h3 class='symbol'>Ru</h3>
+    <span class='name'>Rutênio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>45</span>
+    <h3 class='symbol'>Rh</h3>
+    <span class='name'>Ródio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>46</span>
+    <h3 class='symbol'>Pd</h3>
+    <span class='name'>Paládio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>47</span>
+    <h3 class='symbol'>Ag</h3>
+    <span class='name'>Prata</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>48</span>
+    <h3 class='symbol'>Cd</h3>
+    <span class='name'>Câdmio</span>
+</td>
+<td class="representative-metals">
+    <span class='atomic-num'>49</span>
+    <h3 class='symbol'>In</h3>
+    <span class='name'>Indio</span>
+</td>
+<td class="representative-metals">
+    <span class='atomic-num'>50</span>
+    <h3 class='symbol'>Sn</h3>
+    <span class='name'>Estanio</span>
+</td>
+<td class="semi-metals">
+    <span class='atomic-num'>51</span>
+    <h3 class='symbol'>Sb</h3>
+    <span class='name'>Antimônio</span>
+</td>
+<td class="semi-metals">
+    <span class='atomic-num'>52</span>
+    <h3 class='symbol'>Te</h3>
+    <span class='name'>Telúrio</span>
+</td>
+<td class="halogen">
+    <span class='atomic-num'>53</span>
+    <h3 class='symbol'>I</h3>
+    <span class='name'>Iodo</span>
+</td>
+<td class="noble-gas">
+    <span class='atomic-num'>54</span>
+    <h3 class='symbol'>Xe</h3>
+    <span class='name'>Xenônio</span>
+</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<td class="alkali-metal">
+    <span class='atomic-num'>55</span>
+    <h3 class='symbol'>Cs</h3>
+    <span class='name'>Césio</span>
+</td>
+<td class="alkaline-earth-metal">
+    <span class='atomic-num'>56</span>
+    <h3 class='symbol'>Ba</h3>
+    <span class='name'>Bário</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'></span>
+    <h3 class='symbol'>57/71</h3>
+    <span class='name'></span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>72</span>
+    <h3 class='symbol'>Hf</h3>
+    <span class='name'>Hafnio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>73</span>
+    <h3 class='symbol'>Ta</h3>
+    <span class='name'>Tântalo</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>74</span>
+    <h3 class='symbol'>W</h3>
+    <span class='name'>Tungssênio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>75</span>
+    <h3 class='symbol'>Re</h3>
+    <span class='name'>Rênio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>76</span>
+    <h3 class='symbol'>Os</h3>
+    <span class='name'>Ósmio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>77</span>
+    <h3 class='symbol'>Ir</h3>
+    <span class='name'>Iridio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>78</span>
+    <h3 class='symbol'>Pt</h3>
+    <span class='name'>Platina</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>79</span>
+    <h3 class='symbol'>Au</h3>
+    <span class='name'>Ouro</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>80</span>
+    <h3 class='symbol'>Hg</h3>
+    <span class='name'>Mercúrio</span>
+</td>
+<td class="representative-metals">
+    <span class='atomic-num'>81</span>
+    <h3 class='symbol'>Ti</h3>
+    <span class='name'>Talio</span>
+</td>
+<td class="representative-metals">
+    <span class='atomic-num'>82</span>
+    <h3 class='symbol'>Pb</h3>
+    <span class='name'>Chumbo</span>
+</td>
+<td class="representative-metals">
+    <span class='atomic-num'>83</span>
+    <h3 class='symbol'>Bi</h3>
+    <span class='name'>Bismuto</span>
+</td>
+<td class="semi-metals">
+    <span class='atomic-num'>84</span>
+    <h3 class='symbol'>Po</h3>
+    <span class='name'>Polônio</span>
+</td>
+<td class="halogen">
+    <span class='atomic-num'>85</span>
+    <h3 class='symbol'>At</h3>
+    <span class='name'>Astato</span>
+</td>
+<td class="noble-gas">
+    <span class='atomic-num'>86</span>
+    <h3 class='symbol'>Rn</h3>
+    <span class='name'>Radônio</span>
+</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<td class="alkali-metal">
+    <span class='atomic-num'>87</span>
+    <h3 class='symbol'>Fr</h3>
+    <span class='name'>Frâncio</span>
+</td>
+<td class="alkaline-earth-metal">
+    <span class='atomic-num'>88</span>
+    <h3 class='symbol'>Ra</h3>
+    <span class='name'>Rádio</span>
+</td>
+<td class="Actinidia">
+    <span class='atomic-num'></span>
+    <h3 class='symbol'>89/103</h3>
+    <span class='name'></span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>104</span>
+    <h3 class='symbol'>Rf</h3>
+    <span class='name'>Rutherfórdio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>105</span>
+    <h3 class='symbol'>Db</h3>
+    <span class='name'>Dubnio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>106</span>
+    <h3 class='symbol'>Sg</h3>
+    <span class='name'>Seabórgio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>107</span>
+    <h3 class='symbol'>Bh</h3>
+    <span class='name'>Bónrio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>108</span>
+    <h3 class='symbol'>Hs</h3>
+    <span class='name'>Hásio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>109</span>
+    <h3 class='symbol'>Mt</h3>
+    <span class='name'>Meitnério</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>110</span>
+    <h3 class='symbol'>Ds</h3>
+    <span class='name'>Darmstádtio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>111</span>
+    <h3 class='symbol'>Rg</h3>
+    <span class='name'>Roentgênio</span>
+</td>
+<td class="metalloid">
+    <span class='atomic-num'>112</span>
+    <h3 class='symbol'>Cn</h3>
+    <span class='name'>Copemicio</span>
+</td>
+<td class="representative-metals">
+    <span class='atomic-num'>113</span>
+    <h3 class='symbol'>Nh</h3>
+    <span class='name'>Nihónio</span>
+</td>
+<td class="representative-metals">
+    <span class='atomic-num'>114</span>
+    <h3 class='symbol'>Fl</h3>
+    <span class='name'>Fleróvio</span>
+</td>
+<td class="representative-metals">
+    <span class='atomic-num'>115</span>
+    <h3 class='symbol'>Mc</h3>
+    <span class='name'>Mascóvio</span>
+</td>
+<td class="representative-metals">
+    <span class='atomic-num'>116</span>
+    <h3 class='symbol'>Lv</h3>
+    <span class='name'>Livenmónio</span>
+</td>
+<td class="halogen">
+    <span class='atomic-num'>117</span>
+    <h3 class='symbol'>Ts</h3>
+    <span class='name'>Tennesso</span>
+</td>
+<td class="noble-gas">
+    <span class='atomic-num'>118</span>
+    <h3 class='symbol'>Og</h3>
+    <span class='name'>Organnessonio</span>
+</td>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+
+<td></td>
+<td></td>
+<td></td>
+
+   
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>57</span>
+    <h3 class='symbol'>La</h3>
+    <span class='name'>Lantânio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>58</span>
+    <h3 class='symbol'>Ce</h3>
+    <span class='name'>Cério</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>59</span>
+    <h3 class='symbol'>Pr</h3>
+    <span class='name'>Praseodimio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>60</span>
+    <h3 class='symbol'>Nd</h3>
+    <span class='name'>Neodimio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>61</span>
+    <h3 class='symbol'>Pm</h3>
+    <span class='name'>Promécio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>62</span>
+    <h3 class='symbol'>Sm</h3>
+    <span class='name'>Samário</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>63</span>
+    <h3 class='symbol'>Eu</h3>
+    <span class='name'>Európio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>64</span>
+    <h3 class='symbol'>Gd</h3>
+    <span class='name'>Gadolínio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>65</span>
+    <h3 class='symbol'>Tb</h3>
+    <span class='name'>Térbio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>66</span>
+    <h3 class='symbol'>Dy</h3>
+    <span class='name'>Disprósio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>67</span>
+    <h3 class='symbol'>Ho</h3>
+    <span class='name'>Hóêmio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>68</span>
+    <h3 class='symbol'>Er</h3>
+    <span class='name'>Érbio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>69</span>
+    <h3 class='symbol'>Tm</h3>
+    <span class='name'>Tulío</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>70</span>
+    <h3 class='symbol'>Yb</h3>
+    <span class='name'>Itérbio</span>
+</td>
+<td class="lanthanides">
+    <span class='atomic-num'>71</span>
+    <h3 class='symbol'>Lu</h3>
+    <span class='name'>Lutécio</span>
+</td>
+
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+
+<td></td>
+<td></td>
+<td></td>
+
+
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>89</span>
+    <h3 class='symbol'>Ac</h3>
+    <span class='name'>Actínio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>90</span>
+    <h3 class='symbol'>Th</h3>
+    <span class='name'>Tório</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>91</span>
+    <h3 class='symbol'>Pa</h3>
+    <span class='name'>Protactínio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>92</span>
+    <h3 class='symbol'>U</h3>
+    <span class='name'>Urânio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>93</span>
+    <h3 class='symbol'>Np</h3>
+    <span class='name'>Neptúnio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>94</span>
+    <h3 class='symbol'>Pu</h3>
+    <span class='name'>Plutônio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>95</span>
+    <h3 class='symbol'>Am</h3>
+    <span class='name'>Amerício</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>96</span>
+    <h3 class='symbol'>Cm</h3>
+    <span class='name'>Cúrio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>97</span>
+    <h3 class='symbol'>Bk</h3>
+    <span class='name'>Berquélio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>98</span>
+    <h3 class='symbol'>Cf</h3>
+    <span class='name'>Califórnio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>99</span>
+    <h3 class='symbol'>Es</h3>
+    <span class='name'>Einstênio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>100</span>
+    <h3 class='symbol'>Fm</h3>
+    <span class='name'>Férmio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>101</span>
+    <h3 class='symbol'>Md</h3>
+    <span class='name'>Mendelévio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>102</span>
+    <h3 class='symbol'>No</h3>
+    <span class='name'>Nobélio</span>
+</td>
+<td class="Actinidia ">
+    <span class='atomic-num'>103</span>
+    <h3 class='symbol'>Lr</h3>
+    <span class='name'>Laurêncio</span>
+</td>
+
+
+
+
+      
